@@ -1,0 +1,57 @@
+﻿<Page
+    x:Class="seniorsApp.pillOptions"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:seniorsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" NavigationCacheMode="Enabled">
+
+    <Grid x:Name="LayoutRoot">
+
+        <StackPanel Grid.Row="1"
+            Margin="100,0,100,60">
+            <TextBlock HorizontalAlignment="Left" Name="tb1" Text ="Διαχείριση Χαπιών" FontSize="20"/>
+        </StackPanel>
+
+
+        <Grid Grid.Row="1" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+
+
+
+            <Slider x:Name="mySlider" Width="100"/>
+            <TextBox Name="pill1" FontSize="20" Grid.Row="1" Grid.Column="0"  VerticalAlignment="Center" HorizontalAlignment="Center" Width="300" />
+            <TextBox Name="pill2" FontSize="20" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Width="300" />
+            <TextBox Name="pill3" FontSize="20" Grid.Row="3" Grid.Column="0"  VerticalAlignment="Center" Width="300"/>
+            <TextBox Name="pill4" FontSize="20" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" Width="300" />
+            <TextBox Name="pill5" FontSize="20" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" Width="300"/>
+            <TextBox Name="pill6" FontSize="20" Grid.Row="6" Grid.Column="0" VerticalAlignment="Center" Width="300"/>
+            <TextBox Name="pill7" FontSize="20" Grid.Row="7" Grid.Column="0" VerticalAlignment="Center" Width="300" />
+
+
+
+
+
+            <Button Name="UpdatePills" Content="Καταχώρηση" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="DodgerBlue" FontSize="30" Click="updatePills_function"/>
+
+
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="seniorsApp.pillPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:seniorsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" NavigationCacheMode="Enabled">
+
+    <Grid>
+        <TextBlock x:Name="pageTitle"  Text="Τα χάπια μου: " FontSize="50" />
+
+        <Grid Grid.Row="1" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+               
+                
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <TextBlock Name="pill1" FontSize="30" Grid.Row="1" Grid.Column="0"  VerticalAlignment="Center"  Width="300"/>
+            <TextBlock Name="pill2" FontSize="30" Grid.Row="2" Grid.Column="0"  VerticalAlignment="Center" Width="300"/>
+            <TextBlock Name="pill3" FontSize="30" Grid.Row="3" Grid.Column="0"  VerticalAlignment="Center" Width="300"/>
+            <TextBlock Name="pill4" FontSize="30" Grid.Row="4" Grid.Column="0"  VerticalAlignment="Center" Width="300"/>
+            <TextBlock Name="pill5" FontSize="30" Grid.Row="5" Grid.Column="0"  VerticalAlignment="Center" Width="300"/>
+            <TextBlock Name="pill6" FontSize="30" Grid.Row="6" Grid.Column="0"  VerticalAlignment="Center" Width="300"/>
+            <TextBlock Name="pill7" FontSize="30" Grid.Row="7" Grid.Column="0" VerticalAlignment="Center" Width="300"/>
+
+            <CheckBox x:Name="checkbox1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center"  />
+            <CheckBox x:Name="checkbox2"  Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" />
+            <CheckBox x:Name="checkbox3"  Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" />
+            <CheckBox x:Name="checkbox4"  Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" />
+            <CheckBox x:Name="checkbox5"  Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" />
+            <CheckBox x:Name="checkbox6"  Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" />
+            <CheckBox x:Name="checkbox7"  Grid.Row="7" Grid.Column="1" VerticalAlignment="Center" />
+
+            
+
+
+        </Grid>
+
+    </Grid>
+</Page>

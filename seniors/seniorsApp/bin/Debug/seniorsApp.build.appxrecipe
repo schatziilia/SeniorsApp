@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LENOVO-PC</Machine>
+    <WindowsUser>kadia_000</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>2ddbf0f7-94fb-4946-b7e3-17ff243abde7</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\bin\Debug\seniorsApp.exe">
+      <PackagePath>seniorsApp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\bin\Debug\ambPage.xbf">
+      <PackagePath>ambPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\bin\Debug\infoPage.xbf">
+      <PackagePath>infoPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\bin\Debug\lostPage.xbf">
+      <PackagePath>lostPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\bin\Debug\optionsPage.xbf">
+      <PackagePath>optionsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\bin\Debug\phonePage.xbf">
+      <PackagePath>phonePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\bin\Debug\pillPage.xbf">
+      <PackagePath>pillPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\bin\Debug\sosPage.xbf">
+      <PackagePath>sosPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\bin\Debug\seniorsApp.xr.xml">
+      <PackagePath>seniorsApp.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kadia_000\documents\visual studio 2013\Projects\seniorsApp\seniorsApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

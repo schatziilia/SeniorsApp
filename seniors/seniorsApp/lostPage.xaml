@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="seniorsApp.lostPage"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:seniorsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:bm="using:Bing.Maps"
+    
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+
+        <!--
+        <bm:Map Credentials="Ajv8zFzZWS-k_q3Q5c6FYgRy0eyN1jWKrddfHPbFRX0vp56SGmFd6oXLG4xhMMYP" x:Name="myMap"></bm:Map> 
+-->
+        <StackPanel HorizontalAlignment="Stretch"
+                Margin="8,8,8,8" VerticalAlignment="Stretch" >
+            
+            <Maps:MapControl
+            x:Name="MapControl1"
+                
+            MapServiceToken="Ajv8zFzZWS-k_q3Q5c6FYgRy0eyN1jWKrddfHPbFRX0vp56SGmFd6oXLG4xhMMYP"
+            Height="560"
+            Margin="0,0,0,0" />
+        </StackPanel>
+
+        
+    </Grid>
+    
+    
+</Page>

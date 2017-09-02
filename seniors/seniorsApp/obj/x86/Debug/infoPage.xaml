@@ -1,0 +1,57 @@
+﻿<Page
+    x:Class="seniorsApp.infoPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:seniorsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" NavigationCacheMode="Enabled">
+
+    <Grid>
+        
+    <TextBlock HorizontalAlignment="Center" Name="tb1" Text="Πληροφορίες" FontSize="35" Margin="50,0,50,0"  />
+        <Grid Grid.Row="1" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        
+
+        <TextBlock Name="Name" FontSize="20" Grid.Row="1" Grid.Column="0" Text="Όνομα χρήστη:" VerticalAlignment="Center"  Width="300"/>
+        <TextBlock Name="Surname" FontSize="20" Grid.Row="2" Grid.Column="0" Text="Επώνυμο χρήστη:" VerticalAlignment="Center" Width="300"/>
+        <TextBlock Name="Age" FontSize="20" Grid.Row="3" Grid.Column="0" Text="Ηλικία χρήστη:" VerticalAlignment="Center" Width="300"/>
+        <TextBlock Name="Address" FontSize="20" Grid.Row="4" Grid.Column="0" Text="Διεύθυνση χρήστη:" VerticalAlignment="Center" Width="300"/>
+        <TextBlock Name="PhoneHome" FontSize="20" Grid.Row="5" Grid.Column="0" Text="Τηλέφωνο οικείας:" VerticalAlignment="Center" Width="300"/>
+        <TextBlock Name="PhoneRel" FontSize="20" Grid.Row="6" Grid.Column="0" Text="Τηλέφωνο συγγενή:" VerticalAlignment="Center" Width="300"/>
+        <TextBlock Name="Illness" FontSize="20" Grid.Row="7" Grid.Column="0" Text="Ασθένειες:" VerticalAlignment="Center" Width="300"/>
+
+            <TextBlock Name="Name0" FontSize="20" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center"  Width="300"/>
+            <TextBlock Name="Surname0" FontSize="20" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Width="300"/>
+            <TextBlock Name="Age0" FontSize="20" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Width="300"/>
+            <TextBlock Name="Address0" FontSize="20" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Width="300"/>
+            <TextBlock Name="PhoneHome0" FontSize="20" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" Width="300"/>
+            <TextBlock Name="PhoneRel0" FontSize="20" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" Width="300"/>
+            <TextBlock Name="Illness0" FontSize="20" Grid.Row="7" Grid.Column="1" VerticalAlignment="Center" Width="300"/>
+
+
+
+
+
+        </Grid>
+
+    </Grid>
+</Page>
+

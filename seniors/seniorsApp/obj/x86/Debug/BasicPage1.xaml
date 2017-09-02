@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="seniorsApp.BasicPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:seniorsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+
+
+
+            </Grid.RowDefinitions>
+
+
+            <HyperlinkButton x:ConnectionId='1' Name="DiaxeirisiPlir" Content="Διαχείριση Χαπιών" Grid.Row="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Black" BorderBrush="Bisque" FontSize="30" BorderThickness="3,3,3,3"                         />
+            <HyperlinkButton x:ConnectionId='2' Name="DiaxeirisiXapion" Content="Διαχείριση Πληροφοριών" Grid.Row="0"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="black" BorderBrush="Bisque" FontSize="30" BorderThickness="3,3,3,3"                         />
+
+        </Grid>
+    </Grid>
+</Page>
+

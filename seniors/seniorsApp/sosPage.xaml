@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="seniorsApp.sosPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:seniorsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" NavigationCacheMode="Enabled">
+
+    <Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+
+
+
+            </Grid.RowDefinitions>
+
+
+            <HyperlinkButton Name="Zero" Content="Χάθηκα" Grid.Row="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="DarkGreen" BorderBrush="Black" BorderThickness="0,3,0,0" FontSize="50" Click="lost_function"/>
+            <HyperlinkButton Name="one" Content="Ασθενοφόρο" Grid.Row="0"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="OrangeRed" BorderBrush="Black" BorderThickness="0,3,0,0" FontSize="50" Click="amb_function"/>
+
+        </Grid>
+    </Grid>
+</Page>

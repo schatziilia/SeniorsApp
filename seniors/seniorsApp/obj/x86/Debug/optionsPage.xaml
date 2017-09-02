@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="seniorsApp.optionsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:seniorsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot">
+
+        <StackPanel Grid.Row="1"
+            Margin="100,0,100,60">
+            <TextBlock HorizontalAlignment="Left" Name="tb1" Text ="Διαχείριση Διεπαφής" FontSize="20"/>
+        </StackPanel>
+        
+        
+        <Grid Grid.Row="1" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+
+
+            <TextBox Name="Name" FontSize="20" Grid.Row="1" Grid.Column="0" PlaceholderText="Όνομα χρήστη"  VerticalAlignment="Center" HorizontalAlignment="Center" Width="300" />
+            <TextBox Name="Surname" FontSize="20" Grid.Row="2" Grid.Column="0" PlaceholderText="Επώνυμο χρήστη" VerticalAlignment="Center" Width="300" Text="{Binding surName, Mode=OneWay}"/>
+            <TextBox Name="Age" FontSize="20" Grid.Row="3" Grid.Column="0" PlaceholderText="Ηλικία χρήστη" VerticalAlignment="Center" Width="300" Text="{Binding age, Mode=OneWay}"/>
+            <TextBox Name="Address" FontSize="20" Grid.Row="4" Grid.Column="0" PlaceholderText="Διεύθυνση χρήστη" VerticalAlignment="Center" Width="300" Text="{Binding address, Mode=OneWay}"/>
+            <TextBox Name="PhoneHome" FontSize="20" Grid.Row="5" Grid.Column="0" PlaceholderText="Τηλέφωνο οικείας" VerticalAlignment="Center" Width="300" Text="{Binding phoneHome, Mode=OneWay}"/>
+            <TextBox Name="PhoneRel" FontSize="20" Grid.Row="6" Grid.Column="0" PlaceholderText="Τηλέφωνο συγγενή" VerticalAlignment="Center" Width="300" Text="{Binding siblingPhone, Mode=OneWay}"/>
+            <TextBox Name="Illness" FontSize="20" Grid.Row="7" Grid.Column="0" PlaceholderText="Ασθένειες" VerticalAlignment="Center" Width="300" Text="{Binding illness, Mode=OneWay}"/>
+            
+
+
+
+
+            <Button x:ConnectionId='1' Name="Update" Content="Ενημέρωση" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="DodgerBlue" FontSize="30"                        />
+
+
+        </Grid>
+    </Grid>
+</Page>
+

@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="seniorsApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:seniorsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" NavigationCacheMode="Enabled">
+
+    <Grid Width="400"  Background="Black">
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="*"/>
+
+
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+
+            </Grid.ColumnDefinitions>
+
+
+
+            <HyperlinkButton Name="Zero" Content="sos" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="DarkRed" BorderBrush="Black" BorderThickness="0,3,3,0" FontSize="50" Click="sos_function"/>
+            <HyperlinkButton Name="one" Content="πληροφορίες" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="DarkGreen" BorderBrush="Black" BorderThickness="0,3,3,0" FontSize="25" Click="info_function"/>
+            <HyperlinkButton Name="Two" Content="τηλέφωνα" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="DodgerBlue" BorderBrush="Black" BorderThickness="0,3,3,0" FontSize="25" Click="phone_function"/>
+            <HyperlinkButton Name="Three" Content="χάπια" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="DarkOrange" BorderBrush="Black" BorderThickness="0,3,3,0" FontSize="25" Click="pill_function"/>
+            <HyperlinkButton Name="Four" Content="Διαχείριση" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Black" BorderBrush="Black" FontSize="20" Click="options_function"/>
+            
+        </Grid>
+        
+    </Grid>
+</Page>
